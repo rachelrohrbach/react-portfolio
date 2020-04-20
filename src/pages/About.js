@@ -3,19 +3,17 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import Hero from '../components/Hero';
+import Wrapper from '../components/Wrapper';
 
 function About() {
   return (
-    <div>
-      <Hero backgroundImage="https://cdn.pixabay.com/photo/2017/09/06/13/18/background-2721423_960_720.jpg">
-        <h1>Rachel Rohrbach</h1>
-        <h2>Full Stack Web Developer in Seattle, Washington</h2>
-      </Hero>
+    <Wrapper>
+      <Hero />
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
             <h1 style={{ margin: 10, textAlign: 'center' }}>About Me</h1>
-            <p style={{ fontSize: 24 }}>
+            <p style={{ fontSize: 24, color: 'white', height: "100%" }}>
               I'm an aspiring web developer currently enrolled in the University
               of Washington Coding Full Stack Web Development Boot Camp with a
               passion for making responsive, user-friendly websites. I am
@@ -30,7 +28,7 @@ function About() {
           </Col>
         </Row>
       </Container>
-    </div>
+    </Wrapper>
   );
 }
 
