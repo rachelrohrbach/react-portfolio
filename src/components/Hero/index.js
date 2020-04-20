@@ -30,7 +30,7 @@ function Hero() {
         <p className="li-link-social">
           <a
             className="social"
-            href="https://www.linkedin.com/in/rachelrohrbach/"
+            href="https://www.linkedin.com/in/rachelrohrbach"
             target="_blank"
             rel="noopener noreferrer"
           >
