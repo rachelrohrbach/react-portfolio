@@ -1,11 +1,15 @@
-nav.navbar.navbar-default {
-    margin: 10;
-    margin-left: auto;
-    justify-content: center;
-    color: white;
-  }
+.navbar {
+    background: rgb(165,201,79);
+    background: linear-gradient(90deg, rgba(165,201,79,1) 13%, rgba(45,144,100,1) 50%, rgba(37,204,223,1) 88%);
+    }
   
-  .nav-item {
+  .navbar-nav {
     font-size: 24px;
+  }
+
+  .navbar-brand {
+    font-size: 32px;
+    font-weight: 500;
+
   }
   

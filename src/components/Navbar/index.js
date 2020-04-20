@@ -1,66 +1,89 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
-import Row from '../Row';
 
-function Navbar() {
-  return (
-    <div
-      id="nav-container"
-      style={{
-        background: 'rgb(165,201,79)',
-        background:
-          'linear-gradient(90deg, rgba(165,201,79,1) 13%, rgba(45,144,100,1) 50%, rgba(37,204,223,1) 88%)',
-      }}
-    >
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+// I consulted Bennett Notes for the Navbar Bootstrap collapse functionality https://www.bennettnotes.com/bootstrap-navbar-collapse-reactjs/ 
+class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true,
+    };
+  }
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed,
+    });
+  }
+  render() {
+    const collapsed = this.state.collapsed;
+    const collapse = collapsed
+      ? 'collapse navbar-collapse'
+      : 'collapse navbar-collapse show';
+    const toggle = collapsed
+      ? 'navbar-toggler navbar-toggler-right collapsed'
+      : 'navbar-toggler navbar-toggler-right';
+    return (
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <Link className="navbar-brand" to="/" style={{ fontSize: '32px' }}>
-          Rachel Rohrbach
-        </Link>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto justify-content-center">
-            <li className="nav-item">
-              <Link
-                to="/"
-                className={
-                  window.location.pathname === '/' ||
-                  window.location.pathname === '/about'
-                    ? 'nav-link active'
-                    : 'nav-link'
-                }
-              >
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/skills"
-                className={
-                  window.location.pathname === '/skills'
-                    ? 'nav-link active'
-                    : 'nav-link'
-                }
-              >
-                Skills
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/projects"
-                className={
-                  window.location.pathname === '/projects'
-                    ? 'nav-link active'
-                    : 'nav-link'
-                }
-              >
-                Projects
-              </Link>
-            </li>
-          </ul>
+        <div className="container">
+          <button
+            onClick={this.toggleNavbar}
+            className={`${toggle}`}
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className={`${collapse}`} id="navbarResponsive">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item">
+                <Link
+                  to="/"
+                  className={
+                    window.location.pathname === '/' ||
+                    window.location.pathname === '/about'
+                      ? 'nav-link active'
+                      : 'nav-link'
+                  }
+                >
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/Experience"
+                  className={
+                    window.location.pathname === '/Experience'
+                      ? 'nav-link active'
+                      : 'nav-link'
+                  }
+                >
+                  Experience
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/Projects"
+                  className={
+                    window.location.pathname === '/Projects'
+                      ? 'nav-link active'
+                      : 'nav-link'
+                  }
+                >
+                  Projects
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
-    </div>
-  );
+    );
+  }
 }
-
 export default Navbar;
