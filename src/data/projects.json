@@ -1,0 +1,44 @@
+  [
+    {
+      "name": "Mothra",
+      "description": "Mothra is a project planning application inspired by JIRA. It allows users to create projects and tasks and manager their status.",
+      "imgUrl": "images/mothra_dashboard.png",
+      "link": "https://the-best-project-manager.herokuapp.com/",
+      "github": "https://github.com/maximilianc88/Project-Planner-Application"
+    },
+    {
+      "name": "React Employee Directory",
+      "description": "An employee directory created with React. It allows the user to view, sort, and search for employee information including an image, first and last name, phone number, email and date of birth in a table format.",
+      "imgUrl": "images/react-employee-app-screenshot.png",
+      "link": "https://rachelrohrbach.github.io/react-employee-directory/",
+      "github": "https://github.com/rachelrohrbach/react-employee-directory"
+    },
+    {
+      "name": "Devour the Burgers",
+      "description": "Devour the Burgers is an interactive application built with a custom ORM utilizing the MVC design pattern. Users can create, devour and re-make burgers.",
+      "imgUrl": "images/burgers-screenshot.png",
+      "link": "https://evening-bayou-25102.herokuapp.com/",
+      "github": "https://github.com/rachelrohrbach/burger"
+    },
+    {
+      "name": "Employee Tracker",
+      "description": "A command-line application that makes it easy for non-developers to view and interact with information stored in a database. With Employee Tracker the user manages a company's employees using an interface that works with NodeJS, express, inquirer, and MySQL.",
+      "imgUrl": "images/employee-tracker.png",
+      "link": "https://github.com/rachelrohrbach/employee-tracker",
+      "github": "https://github.com/rachelrohrbach/employee-tracker"
+    },
+    {
+      "name": "Employee Template Engine",
+      "description": "A command-line application using node.js that dynamically generates an html page about a software engineering team based on user provided information.",
+      "imgUrl": "images/employee-template-screenshot.png",
+      "link": "https://github.com/rachelrohrbach/employee-template-engine",
+      "github": "https://github.com/rachelrohrbach/employee-template-engine"
+    },
+    {
+      "name": "Adopt-A-Pet",
+      "description": "This project is an animal adoption search and pet resources mapping application. It takes in user input to search the RescueGroups.org API for cats or dogs that are available for adoption from adoption agencies.",
+      "imgUrl": "images/pet-search-screenshot.png",
+      "link": "https://rachelrohrbach.github.io/pet-adoption/",
+      "github": "https://github.com/rachelrohrbach/pet-adoption"
+    }
+  ]
