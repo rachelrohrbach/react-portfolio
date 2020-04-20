@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Row from '../Row';
-import Col from '../Col';
 import Container from '../Container';
 import './style.css';
 
@@ -20,7 +18,7 @@ function ProjectCard(props) {
             <h5 className="card-text">{props.description}</h5>
             <div className="links">
               <h5 className="link">
-                <a href={props.link} class="btn btn-primary">
+                <a href={props.link} className="btn btn-primary">
                   Deployed App
                 </a>
               </h5>
@@ -28,7 +26,7 @@ function ProjectCard(props) {
                 <a
                   id="github"
                   href={props.github}
-                  class="btn btn-primary"
+                  className="btn btn-primary"
                   style={{ alignContent: 'right' }}
                 >
                   GitHub Repo
