@@ -7,7 +7,9 @@
 * [License](#license)
 
 ## General Information
-This project is my personal web developer portfolio. This project is an improvement on two former versions of the website that has continued to evolve as I have learned new technologies and continue to build toward being employer competitive. It contains actual examples of my work including 2 collaborative coding projects and some exemplary homework assignments as well as links to my GitHub repository, deployed projects, my LinkedIn profile and resume. 
+This project is my personal web developer portfolio website. This project is an improvement on two former versions of the website that has continued to evolve as I have learned new technologies and continue to build toward being employer competitive. It contains actual examples of my work including 2 collaborative coding projects and some exemplary homework assignments as well as links to my GitHub repository, deployed projects, my LinkedIn profile and resume. 
+
+You can access my deployed website here: https://rachelrohrbach.github.io/react-portfolio/#/Projects
 	
 ## Technologies
 This project is created with: 
