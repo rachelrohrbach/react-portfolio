@@ -1,0 +1,11 @@
+nav.navbar.navbar-default {
+    margin: 10;
+    margin-left: auto;
+    justify-content: center;
+    color: white;
+  }
+  
+  .nav-item {
+    font-size: 24px;
+  }
+  
