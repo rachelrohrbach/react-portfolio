@@ -13,7 +13,7 @@ function ProjectCard(props) {
             <img
               className="card-img"
               src={props.imgUrl}
-              alt="project-screenshot"
+              alt={props.name}
             />
             <h5 className="card-text">{props.description}</h5>
             <div className="links">

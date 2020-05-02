@@ -7,6 +7,13 @@
       "github": "https://github.com/maximilianc88/Project-Planner-Application"
     },
     {
+      "name": "(React) Google Books Search",
+      "description": "React-based Google Books Search app. Search for books using the Google Books API by typing in a book title; from the results the user can click the view button to navigate to the book on the Google Play Store or save the book to the database. They can view the books they've saved on the Save Page and also delete them from the saved list.",
+      "imgUrl": "images/google-books-screenshot.png",
+      "link": "https://fast-tundra-68220.herokuapp.com/",
+      "github": "https://github.com/rachelrohrbach/google-books-search"
+    },
+    {
       "name": "React Employee Directory",
       "description": "An employee directory created with React. It allows the user to view, sort, and search for employee information including an image, first and last name, phone number, email and date of birth in a table format.",
       "imgUrl": "images/react-employee-app-screenshot.png",
