@@ -35,13 +35,6 @@
       "github": "https://github.com/rachelrohrbach/employee-tracker"
     },
     {
-      "name": "Employee Template Engine",
-      "description": "A command-line application using node.js that dynamically generates an html page about a software engineering team based on user provided information.",
-      "imgUrl": "images/employee-template-screenshot.png",
-      "link": "https://github.com/rachelrohrbach/employee-template-engine",
-      "github": "https://github.com/rachelrohrbach/employee-template-engine"
-    },
-    {
       "name": "Adopt-A-Pet",
       "description": "This project is an animal adoption search and pet resources mapping application. It takes in user input to search the RescueGroups.org API for cats or dogs that are available for adoption from adoption agencies.",
       "imgUrl": "images/pet-search-screenshot.png",
