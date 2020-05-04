@@ -1,44 +1,45 @@
-  [
+[
     {
       "name": "Mothra",
       "description": "Mothra is a project planning application inspired by JIRA. It allows users to create projects and tasks and manager their status.",
-      "imgUrl": "images/mothra_dashboard.png",
+      "imgUrl": "/images/mothra.png",
       "link": "https://the-best-project-manager.herokuapp.com/",
       "github": "https://github.com/maximilianc88/Project-Planner-Application"
     },
     {
       "name": "(React) Google Books Search",
-      "description": "React-based Google Books Search app. Search for books using the Google Books API by typing in a book title; from the results the user can click the view button to navigate to the book on the Google Play Store or save the book to the database. They can view the books they've saved on the Save Page and also delete them from the saved list.",
-      "imgUrl": "images/google-books-screenshot.png",
+      "description": "React-based Google Books Search app using the Google Books API. The user can navigate to the book on the Google Play Store or create a saved books list from which they can save and delete books.",
+      "imgUrl": "/images/googleBooks.png",
       "link": "https://fast-tundra-68220.herokuapp.com/",
       "github": "https://github.com/rachelrohrbach/google-books-search"
     },
     {
       "name": "React Employee Directory",
       "description": "An employee directory created with React. It allows the user to view, sort, and search for employee information including an image, first and last name, phone number, email and date of birth in a table format.",
-      "imgUrl": "images/react-employee-app-screenshot.png",
+      "imgUrl": "/images/reactEmployee.png",
       "link": "https://rachelrohrbach.github.io/react-employee-directory/",
       "github": "https://github.com/rachelrohrbach/react-employee-directory"
     },
     {
       "name": "Devour the Burgers",
       "description": "Devour the Burgers is an interactive application built with a custom ORM utilizing the MVC design pattern. Users can create, devour and re-make burgers.",
-      "imgUrl": "images/burgers-screenshot.png",
+      "imgUrl": "/images/burgers.png",
       "link": "https://evening-bayou-25102.herokuapp.com/",
       "github": "https://github.com/rachelrohrbach/burger"
     },
     {
       "name": "Employee Tracker",
       "description": "A command-line application that makes it easy for non-developers to view and interact with information stored in a database. With Employee Tracker the user manages a company's employees using an interface that works with NodeJS, express, inquirer, and MySQL.",
-      "imgUrl": "images/employee-tracker.png",
+      "imgUrl": "/images/employeeTracker.png",
       "link": "https://github.com/rachelrohrbach/employee-tracker",
       "github": "https://github.com/rachelrohrbach/employee-tracker"
     },
     {
       "name": "Adopt-A-Pet",
       "description": "This project is an animal adoption search and pet resources mapping application. It takes in user input to search the RescueGroups.org API for cats or dogs that are available for adoption from adoption agencies.",
-      "imgUrl": "images/pet-search-screenshot.png",
+      "imgUrl": "/images/pet.png",
       "link": "https://rachelrohrbach.github.io/pet-adoption/",
       "github": "https://github.com/rachelrohrbach/pet-adoption"
     }
   ]
+

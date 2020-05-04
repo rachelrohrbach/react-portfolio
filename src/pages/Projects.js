@@ -2,9 +2,9 @@ import React from 'react';
 import Col from '../components/Col';
 import Row from '../components/Row';
 import Container from '../components/Container';
-import ProjectCard from '../components/ProjectCard';
-import projects from '../data/projects.json';
+import projects from '../data/projects';
 import Hero from '../components/Hero';
+import Card from 'react-bootstrap/Card';
 
 function Projects() {
   return (
@@ -12,19 +12,33 @@ function Projects() {
       <Hero />
       <Container>
         <Row>
-          <Col size="md-12">
-              {projects.map((project) => (
-                <div className="project-card" key={project.name}>
-                  <ProjectCard
-                    name={project.name}
-                    description={project.description}
-                    imgUrl={project.imgUrl}
-                    github={project.github}
-                    link={project.link}
-                  />
+          {projects.map((project) => (
+            <Card style={{ width: '20rem', backgroundColor: 'transparent' }}>
+              {/* <Card.Img variant='top' src={project.imgUrl} /> */}
+              <Card.Body key={project.name}>
+                <Card.Title className='text-center'>{project.name}</Card.Title>
+                <Card.Text>{project.description}</Card.Text>
+                <div className='btn-container'>
+                  <a
+                    className='btn btn-light ml-2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={project.link}
+                  >
+                    Deployed Link
+                  </a>
+                  <a
+                    className='btn btn-light ml-2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={project.github}
+                  >
+                    GitHub Repo
+                  </a>
                 </div>
-              ))}
-          </Col>
+              </Card.Body>
+            </Card>
+          ))}
         </Row>
       </Container>
     </div>

@@ -6,9 +6,6 @@ function Hero() {
   return (
     <div
       className="hero text-center"
-      style={{
-        backgroundImage: `url("https://cdn.pixabay.com/photo/2017/09/06/13/18/background-2721423_960_720.jpg")`,
-      }}
     >
       <h1>Rachel Rohrbach</h1>
       <h2>Full Stack Web Developer in Seattle, Washington</h2>
