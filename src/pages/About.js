@@ -5,7 +5,7 @@ import Wrapper from '../components/Wrapper';
 
 function About() {
   return (
-    <Wrapper>
+    <Wrapper style={{ height: '100%' }}>
       <Hero />
       <Container style={{ marginTop: 30 }}>
         <Row>
