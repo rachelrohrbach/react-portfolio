@@ -1,51 +1,41 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Container from '../Container';
+import { Container } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 import './style.css';
 
 function ProjectCard(props) {
   return (
     <Container>
-      <div className="row mt-5">
-        <div className="card">
-          <div className="card-body">
-            <h1 className="card-title text-center">{props.name}</h1>
-            <img
-              className="card-img"
-              src={props.imgUrl}
-              alt={props.name}
-            />
-            <h5 className="card-text">{props.description}</h5>
-            <div className="links">
-              <h5 className="link">
-                <a href={props.link} className="btn btn-primary">
+      <div className='row'>
+        <Card className='projectCard'>
+          <Card.Img
+            variant='top'
+            src={process.env.PUBLIC_URL + '/' + props.imgUrl}
+            alt={props.name}
+          />
+          <Card.Body>
+            <Card.Title className='text-center'>{props.name}</Card.Title>
+            <Card.Text>
+              <p> {props.description}</p>
+              <div className='links'>
+                <Button variant='outline-light' href={props.link}>
                   Deployed App
-                </a>
-              </h5>
-              <h5 className="github">
-                <a
-                  id="github"
+                </Button>
+                <Button
+                  variant='outline-light'
                   href={props.github}
-                  className="btn btn-primary"
                   style={{ alignContent: 'right' }}
                 >
                   GitHub Repo
-                </a>
-              </h5>
-            </div>
-          </div>
-        </div>
+                </Button>
+              </div>
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </div>
     </Container>
   );
 }
-
-ProjectCard.propTypes = {
-  name: PropTypes.string,
-  description: PropTypes.string,
-  link: PropTypes.string,
-  github: PropTypes.string,
-  imgUrl: PropTypes.string,
-};
 
 export default ProjectCard;

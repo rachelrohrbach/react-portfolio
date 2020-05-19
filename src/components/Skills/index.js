@@ -1,25 +1,13 @@
 import React from 'react';
+import { Container, Col } from 'react-bootstrap';
 import './style.css';
 import Technologies from './technologies.png';
 
 function Skills() {
   return (
-    <div className='container'>
-      <h1>
-        <a
-          className='text-center'
-          id='resume'
-          style={{ color: 'white', textDecoration: 'underline' }}
-          href='https://drive.google.com/file/d/1mCjUass4ZfgGnQcnaKW80kFOt_k8KoKH/view?usp=sharing'
-        >
-          Full Resume
-        </a>
-      </h1>
-      <div className='technologies text-center'>
-        <img src={Technologies} alt='technologies' />
-      </div>
+    <Container className='skills'>
       <div className='row'>
-        <div className='col-md-12 col-sm-8'>
+        <Col size='md-12 sm-8'>
           <div className='content-body'>
             <ul className='ul-skills'>
               <h1>Skills</h1>
@@ -37,9 +25,12 @@ function Skills() {
               <li className='li-skills'>Handlebars</li>
             </ul>
           </div>
-        </div>
+        </Col>
       </div>
-    </div>
+      <div className='technologies text-center'>
+        <img src={Technologies} alt='technologies' />
+      </div>
+    </Container>
   );
 }
 

@@ -1,43 +1,25 @@
 import React from 'react';
-import Col from '../components/Col';
-import Row from '../components/Row';
-import Container from '../components/Container';
-import projects from '../data/projects';
-import Hero from '../components/Hero';
-import Card from 'react-bootstrap/Card';
+// import Col from '../components/Col';
+import { Col, Container, Row } from 'react-bootstrap';
+import projects from '../projects.json';
+import ProjectCard from '../components/ProjectCard';
 
 function Projects() {
   return (
     <div>
-      <Hero />
-      <Container>
+      <Container className='pt-5'>
+        <h1 className='pb-3'> Projects </h1>
         <Row>
-          {projects.map((project) => (
-            <Card style={{ width: '20rem', backgroundColor: 'transparent' }}>
-              {/* <Card.Img variant='top' src={project.imgUrl} /> */}
-              <Card.Body key={project.name}>
-                <Card.Title className='text-center'>{project.name}</Card.Title>
-                <Card.Text>{project.description}</Card.Text>
-                <div className='btn-container'>
-                  <a
-                    className='btn btn-light ml-2'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href={project.link}
-                  >
-                    Deployed Link
-                  </a>
-                  <a
-                    className='btn btn-light ml-2'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href={project.github}
-                  >
-                    GitHub Repo
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
+          {projects.map(project => (
+            <Col size='sm-12 md-6 lg-4' key={project.name}>
+              <ProjectCard
+                name={project.name}
+                description={project.description}
+                imgUrl={project.imgUrl}
+                github={project.github}
+                link={project.link}
+              />
+            </Col>
           ))}
         </Row>
       </Container>

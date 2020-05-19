@@ -3,14 +3,25 @@
 }
 
 .links {
-    display: flex;
+    display: flex;;
     justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 .card-title {
-    color: black;
+    color: white;
 }
 
-.card-img {
-    width: 100px;
+p {
+    font-size: 14px;
+    word-wrap: break-word;
+    color: white;
+}
+
+.projectCard {
+    width: 20rem;
+    height: 396px;
+    background-color: transparent;
+    border-color: white;
+
 }

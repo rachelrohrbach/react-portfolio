@@ -1,5 +1,5 @@
 .footer {
-    min-height: 100px;
+    min-height: 150px;
     background: #5abb92;
     position: relative;
     background-image: url("https://cdn.pixabay.com/photo/2017/09/06/13/18/background-2721423_960_720.jpg");
@@ -17,8 +17,9 @@
     color: white;
   }
 
-  .li-link-social {
-    list-style-type: none;
-    display: inline;
+
+  a {
+    color: white;
   }
+  
 

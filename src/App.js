@@ -8,18 +8,16 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import './App.css';
 
-
 function App() {
   return (
     <Router>
-
-      <div className="App-body">
+      <div className='App-body'>
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/experience" component={Experience} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path='/' component={About} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/skills' component={Experience} />
+          <Route exact path='/projects' component={Projects} />
         </Wrapper>
         <Footer />
       </div>

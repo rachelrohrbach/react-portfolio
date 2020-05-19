@@ -3,6 +3,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-bottom: 15px;
   }
   
   .hero::after {
@@ -40,5 +41,4 @@
 
   .fab{ 
     padding: 15px 10px;
-  
   }
