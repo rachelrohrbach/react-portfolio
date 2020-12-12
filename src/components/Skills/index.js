@@ -23,6 +23,8 @@ function Skills() {
               <li className='li-skills'>Bootstrap</li>
               <li className='li-skills'>Git</li>
               <li className='li-skills'>Handlebars</li>
+              <li className='li-skills'>HTML5 Video</li>
+              <li className='li-skills'>WordPress</li>
             </ul>
           </div>
         </Col>
