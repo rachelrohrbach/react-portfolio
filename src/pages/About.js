@@ -12,14 +12,12 @@ function About() {
           <Col size='md-12'>
             <p className='text-center' style={{ fontSize: 24, color: 'white' }}>{}
               Web Developer with a passion for making responsive, user-friendly
-              websites and background in event management. Known for being
+              websites and a background in event management. Known for being
               well-organized and collaborative with a strong work ethic.
-              Recently graduated from the University of Washington’s Full Stack
-              Web Development Boot Camp - ready-set to utilize newly acquired
-              skills in web development! <br />
+               <br />
               
               <br />
-              When I’m not coding, I enjoy cooking,
+              When I’m not coding, I enjoy cooking, hand embroidering, 
               traveling, reading, spending time with friends and family, and playing the world’s only 10-player arcade game
               Killer Queen.
             </p>
