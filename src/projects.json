@@ -1,14 +1,21 @@
 [
   {
+    "name": "Smart Shopper",
+    "description": "A “smart” shopping list progressive web app (PWA) that learns your buying habits and helps you remember what you’re likely to need to buy on your next trip to the store. Built with React and Firebase with a team of 3 other developers and 3 mentors over the course of 8 weeks.",
+    "imgUrl": "images/smartShopper.jpg",
+    "link": "https://tcl-17-smart-shopping-list.netlify.app/",
+    "github": "https://github.com/the-collab-lab/tcl-17-smart-shopping-list"
+  },
+  {
     "name": "Order Up",
-    "description": "Order Up is is a platform for point of digital ordering, employee management, inventory management, floor planning and food preparation.",
+    "description": "A progressive web application for digital point of ordering, and front- and back-of-house management. Built with JavaScript, Node, Express, React, and MongoDB  with a team of 4 other developers over the course of 2 weeks.",
     "imgUrl": "images/orderUp.png",
     "link": "https://order-up-fork.herokuapp.com/",
     "github": "https://github.com/rachelrohrbach/order-up"
   },
   {
     "name": "Mothra",
-    "description": "Mothra is a project planning application inspired by JIRA. Mothra uses JavaScript, Node, Express, Handlebars, and mySQL to allow users to create, update and delete tasks and projects.",
+    "description": "A project planning app inspired by JIRA that allow users to create, update and delete tasks and projects. Built with a team of 3 other developers over the course of 2 weeks using JavaScript, Node, Express, Handlebars, and mySQL. Focused on the front-end logic and writing tests.",
     "imgUrl": "images/mothra.png",
     "link": "https://the-best-project-manager.herokuapp.com/",
     "github": "https://github.com/maximilianc88/Project-Planner-Application"
@@ -33,12 +40,5 @@
     "imgUrl": "images/burgers.png",
     "link": "https://evening-bayou-25102.herokuapp.com/",
     "github": "https://github.com/rachelrohrbach/burger"
-  },
-  {
-    "name": "Employee Tracker",
-    "description": "A command-line application that makes it easy for non-developers to view and interact with information stored in a database. With Employee Tracker the user manages a company's employees using an interface that works with NodeJS, express, inquirer, and MySQL.",
-    "imgUrl": "images/employeeTracker.png",
-    "link": "https://github.com/rachelrohrbach/employee-tracker",
-    "github": "https://github.com/rachelrohrbach/employee-tracker"
   }
 ]
