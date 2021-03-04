@@ -34,7 +34,7 @@ function Footer() {
             rachel.rohrbach@gmail.com
           </a>{' '}
         </div>
-        <p> Copyright © 2020 Rachel Rohrbach</p>
+        <p> Copyright © 2021 Rachel Rohrbach</p>
       </span>
     </footer>
   );
