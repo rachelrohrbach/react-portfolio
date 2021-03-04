@@ -1,12 +1,11 @@
 .hero {
-    height: 300px;
+    height: fit-content;
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-bottom: 15px;
   }
   
-  .hero::after {
+  /* .hero::after {
     content: '';
     display: block;
     opacity: 0.4;
@@ -15,7 +14,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-  }
+  } */
   
   .hero * {
     position: relative;
@@ -38,7 +37,11 @@
     list-style-type: none;
     display: inline;
   }
+  
+  .social-links  {
+    display: inline !important;
+  }
 
   .fab{ 
-    padding: 15px 10px;
+    padding: 15px 10px 20px 10px;
   }
